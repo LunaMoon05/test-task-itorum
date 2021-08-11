@@ -1,0 +1,37 @@
+.title {
+  margin-bottom: 25px;
+  span {
+    color: red;
+  }
+}
+
+.avatar {
+  width: 100%;
+  max-width: 200px;
+  margin-right: 25px;
+  img {
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+  }
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  text-align: start;
+}
+
+.infoItem {
+  font-size: 24px;
+  &:not(:last-child) {
+    margin-bottom: 6px;
+  }
+  span {
+    font-weight: 600;
+    color: green;
+  }
+}

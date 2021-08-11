@@ -1,0 +1,21 @@
+.pagination {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  font-weight: 500;
+  color: white;
+  background-color: #ffcc00;
+  border: 1px solid #ffcc00;
+  font-size: 30px;
+  padding: 8px 16px;
+  transition: .05s linear background-color;
+  &:hover {
+    color: #ffcc00;
+    background-color: white;
+  }
+}

@@ -2,8 +2,8 @@ import s from './Pagination.module.scss'
 
 export const Pagination = props => {
   const {lastUser, setLastUser} = props
-  const decrementPage = () => setLastUser(lastUser - 1)
-  const incrementPage = () => setLastUser(lastUser + 1)
+  const decrementPage = () => setLastUser(lastUser - 9)
+  const incrementPage = () => setLastUser(lastUser + 9)
   return (
     <div className={s.pagination}>
       {lastUser > 0 &&
